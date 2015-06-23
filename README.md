@@ -1,3 +1,5 @@
+![alt text](http://modaclouds.eu/img/image4094_1.png "MODAClouds")
+
 MODAClouds metamodels repository
 ================================
 This repository contains links to all the metamodels that have been defined within the MODAClouds project.
