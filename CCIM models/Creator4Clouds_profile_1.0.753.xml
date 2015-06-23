@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <profile uid="638170d7-a7f9-4ece-9002-c167da58bc6d" name="General">
+        <stereotype uid="1183550f-4f83-4264-a08c-1f27861fbf63" name="RootPackage" label="RootPackage" metaclass="Package">
+            <icons/>
+        </stereotype>
+        <stereotype uid="e901f0ca-7314-41ed-a5b6-9cce6eedc393" name="MODACloudMLModel" label="MODACloudMLModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/MODACloudMLModel16.png"/>
+            </icons>
+            <taggedvalues name="slaCoreUrl" uid="97299fa5-13be-45de-b4ca-79834212ecbc" label="slaCoreUrl" is-hidden="false"/>
+            <taggedvalues name="slaCoreUser" uid="f36a71ed-fe47-44f8-862c-251b90115949" label="slaCoreUser" is-hidden="false"/>
+            <taggedvalues name="slaCorePassword" uid="a508f908-eced-4de3-ac2d-46a90b0be9b0" label="slaCorePassword" is-hidden="false"/>
+            <taggedvalues name="applicationProvider" uid="8e3a863b-e87b-44c3-9b58-99e4244a2a53" label="applicationProvider" is-hidden="false"/>
+            <taggedvalues name="customer" uid="84bc0ce6-aa13-4218-aa56-2cba5d3d6571" label="customer" is-hidden="false"/>
+            <taggedvalues name="service" uid="942af309-aaaa-4889-83aa-43e72bc60c1c" label="service" is-hidden="false"/>
+            <taggedvalues name="duration" uid="938778f7-9388-41eb-b289-957d903b60a7" label="duration" is-hidden="false"/>
+            <taggedvalues name="fgAlgorithm" uid="04b0ba3d-3f9b-4795-bb6e-1fc4ee7227af" label="fgAlgorithm" is-hidden="false"/>
+            <taggedvalues name="fgTimeStep" uid="bbd1fa51-547e-4d87-9eed-45f31b42e1ea" label="fgTimeStep" is-hidden="false"/>
+            <taggedvalues name="fgDataHorizon" uid="e9d6b418-8147-48b1-986d-187068f14451" label="fgDataHorizon" is-hidden="false"/>
+            <taggedvalues name="fgLocalDBIP" uid="f98b5bfd-7ee0-4329-a71a-7ac0e2f45452" label="fgLocalDBIP" is-hidden="false"/>
+            <taggedvalues name="fgReportDataFolder" uid="0acdf818-e19a-42fd-9245-733fcf068c59" label="fgReportDataFolder" is-hidden="false"/>
+            <taggedvalues name="fgWindow" uid="cb8d3c55-d499-4ecc-ae43-55dce6ae2c7f" label="fgWindow" is-hidden="false"/>
+            <taggedvalues name="fgNCPU" uid="ea22eb7b-9589-4775-87d3-54f7b2b484df" label="fgNCPU" is-hidden="false"/>
+            <taggedvalues name="fgMetrics" uid="a2cbcf3d-8934-4527-9814-ac4870368fdf" label="fgMetrics" is-hidden="false"/>
+            <taggedvalues name="fgCPUMetric" uid="70729174-9d76-458c-a492-b1b368927faa" label="fgCPUMetric" is-hidden="false"/>
+            <taggedvalues name="fgAppMetric" uid="4518efa1-95f1-4b50-8c5d-87b17947a879" label="fgAppMetric" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="11c71f04-9897-4ee3-99a5-03b052f7c0b9" name="CIM" label="CIM" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CIM16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="105d1fac-a28e-4f37-88aa-034a0bc143f2" name="CPIM" label="CPIM" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPIM16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="e54a8d70-fa5b-48a6-9179-9c6ee2b45e58" name="CPSM" label="CPSM" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPSM16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="bc1eed6a-7e4e-4f96-b302-e4282b0c7a73" name="Legacy" label="Legacy" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/Legacy16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="1e93462f-fb64-4cca-9bf2-dad2667e307c" name="ResourcePackage" label="ResourcePackage" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/ResourcePackage16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="81f88818-60a9-448d-89b7-e3711dba94ab" name="CPIMDeploymentModel" label="CPIMDeploymentModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPIMDeploymentModel16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="9cec69fc-e182-46cb-b39d-20a218ebcd24" name="CPIMDeploymentAlternative" label="CPIMDeploymentAlternative" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPIMDeploymentAlternative16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="666dccb4-a466-42a1-8ca6-09363ffd72e2" name="CPIMQoSModel" label="CPIMQoSModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPIMQoSModel16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00b5a96c-25ee-48d6-9195-6bd99010547f" name="CPIMMonitoringRules" label="CPIMMonitoringRules" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPIMMonitoringRule16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="7291fdb5-c3d9-480f-99a0-1af52fb95e6c" name="CPSMDeploymentModel" label="CPSMDeploymentModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPSMDeploymentModel16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="b9af961c-e3c4-4568-afc5-2a3485891be5" name="CPSMDeploymentAlternative" label="CPSMDeploymentAlternative" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPSMDeploymentAlternative16.png"/>
+            </icons>
+            <taggedvalues name="multicloudWorkload" uid="dddc4151-5504-4212-b4e2-e15bd8c8aec1" label="multicloudWorkload" is-hidden="false"/>
+            <taggedvalues name="slaHighId" uid="394e75ee-b405-4cc3-b378-fa3b5c831d3c" label="slaHighId" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="58541ed6-0cf0-4525-944c-b3d0221dc245" name="CPSMQoSModel" label="CPSMQoSModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPSMQoSModel16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="d89b1785-450c-4e82-8f46-bd3493496ae0" name="CPSMMonitoringRules" label="CPSMMonitoringRules" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/CPSMMonitoringRule16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="84459618-fd75-4ad5-bfe1-8b5a6d83e932" name="UsageModel" label="UsageModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/UsageModel16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="a9358757-33d2-4343-88dc-89cb8727b612" name="Orchestration" label="Orchestration" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/general/Orchestrartion16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="55c68453-8387-44e7-9286-497d192e67d4" name="UsageDiagram" label="UsageDiagram" metaclass="ActivityDiagram">
+            <icons>
+                <explorer path="res/icons/general/UsageDiagram16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="bac4898c-6dd3-45ba-a3b2-fdb3d59737de" name="ServiceAssemblyDiagram" label="ServiceAssemblyDiagram" metaclass="ClassDiagram">
+            <icons>
+                <explorer path="res/icons/general/ServiceAssemblyDiagram16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="c03156d1-1acb-4923-aa0b-7037abf735b5" name="OrchestrationScenarioDiagram" label="OrchestrationScenarioDiagram" metaclass="ActivityDiagram">
+            <icons>
+                <explorer path="res/icons/general/OrchestrationScenarioDiagram16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="e4e6f243-49ef-4f76-9659-35197565c67b" name="ServiceInterfaceDiagram" label="ServiceInterfaceDiagram" metaclass="ClassDiagram">
+            <icons>
+                <explorer path="res/icons/general/ServiceInterfaceDiagram16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="fcd96b0b-a8a0-4172-924b-0be404227d36" name="ExchangeDataDiagram" label="ExchangeDataDiagram" metaclass="ClassDiagram">
+            <icons>
+                <explorer path="res/icons/resourcePackage16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="3bdfb7db-23d4-41ec-86ea-3aee387667a8" name="DeploymentTypeDiagram" label="DeploymentTypeDiagram" metaclass="ClassDiagram">
+            <icons>
+                <explorer path="res/icons/general/DeploymentTypeDiagram16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="2eede67e-f6cf-4b3a-8b6e-f42a32cce059" name="CPIMDeploymentDiagram" label="CPIMDeploymentDiagram" metaclass="ClassDiagram">
+            <icons>
+                <explorer path="res/icons/general/CPIMDeploymentDiagram16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="2c0e9ba2-2da3-4ffc-929e-58ff6888b1c5" name="CPSMDeploymentDiagram" label="CPSMDeploymentDiagram" metaclass="ClassDiagram">
+            <icons>
+                <explorer path="res/icons/general/CPSMDeploymentDiagram16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="148d8b74-c9e7-4215-b297-a51b740dbf79" name="EditionMatrix" label="EditionMatrix" metaclass="MatrixDefinition">
+            <icons>
+                <explorer path="res/icons/general/EditionMatrix16.png"/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="ca203afe-8522-43d4-8859-ce93757efc22" name="CPSM Multicloud Deployment workload">
+        <stereotype uid="83fbfdfd-c95f-49a5-8989-d9caf17f09f1" name="MulticloudWorkloadPackage" label="MulticloudWorkloadPackage" metaclass="Package">
+            <icons/>
+        </stereotype>
+        <stereotype uid="025e9249-7bd7-4c86-87ae-e915021277bd" name="MulticloudWorkloadSpecification" label="MulticloudWorkloadSpecification" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="4a81a422-74f1-4e67-a93b-220263d0b342" name="ProviderWorkloadSpecification" label="ProviderWorkloadSpecification" metaclass="Dependency">
+            <icons>
+                <explorer path="res/icons/deployment/ResourcesLink16.png"/>
+            </icons>
+            <taggedvalues name="workload" uid="e87759a7-ea38-4285-96f1-97990105ee03" label="workload" is-hidden="false"/>
+        </stereotype>
+    </profile>
+    <profile uid="c272d764-24ac-40b1-b459-d78e305aae11" name="CIM Services Definition">
+        <stereotype uid="33f7cdb4-9a75-4059-9374-20f3e367fd18" name="Service" label="Service" metaclass="Component">
+            <icons>
+                <explorer path="res/icons/service/Service16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="c34946bc-9606-4e03-bcaf-0d8a19ef7c0e" name="ServiceDescription" label="ServiceDescription" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/service/ServiceDescription16.png"/>
+            </icons>
+            <taggedvalues name="description" uid="cea295cb-3882-4921-bf9c-c2d7d9263d91" label="description" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="ae2213ed-5b21-42d6-9048-d214b5cd59cd" name="ProvidedInterfaces" label="ProvidedInterfaces" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/service/ProvidedInterface16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="ca6cf965-64d3-4843-99f2-eebf7fd63387" name="ExchangeData" label="ExchangeData" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/service/ExchangeData16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="bdbea887-5ac3-40c6-9997-4640d91d442d" name="RequiredInterfaces" label="RequiredInterfaces" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/service/RequiredInterface16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="c5e9fc1e-4f18-488a-a9c5-0a629e9b7dec" name="ServiceImplementation" label="ServiceImplementation" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/service/ServiceImplementation16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="99003bf2-82f8-4f27-ae92-e13dc2148dcf" name="BusinessRequirementsPackage" label="BusinessRequirementsPackage" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/service/BusinessRequirementsPackage16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="8d0066ae-458f-4132-9a7b-6a45628df504" name="QoSRequirementsPackage" label="QoSRequirementsPackage" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/service/QoSRequirementsPackage16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="7095b8e6-77f7-4a14-8f07-521951e8d64b" name="BusinessRequirementContainer" label="BusinessRequirementContainer" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/service/BusinessRequirementContainer16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="c1a1ed09-7235-4563-95fc-b029bb8d5546" name="BusinessRequirement" label="BusinessRequirement" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/service/BusinessRequirement16.png"/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="e3f125d7-e7ca-4b4b-83f6-e839e7f22520" name="CIM Usage Model">
+        <stereotype uid="974eb67e-b0f4-434e-92b7-6c0dc3cb3819" name="Workload" label="Workload" metaclass="Activity">
+            <icons/>
+            <taggedvalues name="workloadElements" uid="4124396c-dbdb-469f-ad33-ccb22dd28368" label="workloadElements" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="698b4617-9a5e-4a56-bdca-cb9df0f8eaa4" name="OpenWorkload" label="OpenWorkload" metaclass="Activity">
+            <icons>
+                <explorer path="res/icons/usage/OpenWorkload16.png"/>
+            </icons>
+            <taggedvalues name="interArrivalTime" uid="ac86e161-7983-437a-8d87-88ace051aa46" label="interArrivalTime" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="3c3f572d-82a4-4621-a2bb-0336e9d9c4c5" name="ClosedWorkload" label="ClosedWorkload" metaclass="Activity">
+            <icons>
+                <explorer path="res/icons/usage/ClosedWorkload16.png"/>
+            </icons>
+            <taggedvalues name="population" uid="ca89f54c-aca5-46b0-94dd-63f3fd18f2d0" label="population" is-hidden="false"/>
+            <taggedvalues name="thinkTime" uid="e6024a49-496f-449b-8ba4-a25a70c37d1a" label="thinkTime" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="832a5bfa-576b-4520-afb5-f4d4ea7c0dad" name="Branch" label="Branch" metaclass="StructuredActivityNode">
+            <icons/>
+        </stereotype>
+        <stereotype uid="64155596-9180-40a3-a4ff-1ec03daa81b9" name="BranchedBehavior" label="BranchedBehavior" metaclass="Clause">
+            <icons/>
+            <taggedvalues name="probability" uid="3cda157e-96f1-4a93-b3cb-c32257903dcb" label="probability" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="32223e38-0094-4397-8d2c-f1b4a0ee1f79" name="Loop" label="Loop" metaclass="StructuredActivityNode">
+            <icons/>
+            <taggedvalues name="specification" uid="aba1a8b4-c1a3-4bbd-845a-a41bf483c4a0" label="specification" is-hidden="false"/>
+        </stereotype>
+    </profile>
+    <profile uid="b416ad3a-5c18-41ce-bfef-5a4ec060c56d" name="CIM Orchestration">
+        <stereotype uid="4a1e9f88-e62c-42b4-9253-94931ea67bb5" name="StaticOrchestrationDiagram" label="StaticOrchestrationDiagram" metaclass="ObjectDiagram">
+            <icons>
+                <explorer path="res/icons/soaml_participantArchitectureView.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="30132382-7738-4de4-9a84-e31f5e2f5ee6" name="StaticView" label="StaticView" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/cim_orchestation_static_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="402a8bab-0c31-45a5-93f6-5462329e3840" name="ServiceInstance" label="ServiceInstance" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/service/ServiceInstance16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="a541af58-ecb4-45e9-912b-7e33d4782bf3" name="ServiceConnector" label="ServiceConnector" metaclass="Dependency">
+            <icons>
+                <explorer path="res/icons/cim_orchestration_connector_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="74e4245e-3d37-4595-b468-8c6fb90b9eee" name="DataConnector" label="DataConnector" metaclass="Dependency">
+            <icons>
+                <explorer path="res/icons/cim_orchestration_connector_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="b2b4410d-c3a2-47f6-a983-1cb91c9b3450" name="BusinessProcess" label="BusinessProcess" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/cim_orchestration_process_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="01844ec4-0981-4fd7-a051-cc4e5b381a13" name="OperationParametricResourceDemand" label="OperationParametricResourceDemand" metaclass="Operation">
+            <icons/>
+            <taggedvalues name="specification" uid="ec74da87-65b4-43f1-91d7-db69fb600fd5" label="specification" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="e6c1de6c-d2de-4cbb-8daf-97653d09906a" name="DynamicOrchestrationPackage" label="DynamicOrchestrationPackage" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/orchestration/DynamicOrchestrationPackage16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="1d0cdb10-7493-474d-adf4-be9306513d67" name="DynamicOrchestration" label="DynamicOrchestration" metaclass="Activity">
+            <icons>
+                <explorer path="res/icons/orchestration/DynamicOrchestration16.png"/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="e47b7cf2-3d26-47e7-bee3-ec54558e30fb" name="CPIM Data Model">
+        <stereotype uid="833f13ae-a76f-43ea-9dbe-d262a7bc26d9" name="GraphDataModel" label="GraphDataModel" metaclass="ModelTree">
+            <icons>
+                <explorer path="res/icons/data_model_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="42a3119d-22cc-4a91-9a73-58ed22f0d883" name="HierarchicalDataModel" label="HierarchicalDataModel" metaclass="ModelTree">
+            <icons>
+                <explorer path="res/icons/data_model_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="55b7848e-7a56-492a-ae88-441c04af8eb1" name="FlatDataModel" label="FlatDataModel" metaclass="ModelTree">
+            <icons>
+                <explorer path="res/icons/data_model_16.png"/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="cac2e54f-daf9-4b13-b5ba-30b40c5597be" name="CPSM Data Model">
+        <stereotype uid="7eee769d-c871-492f-8ea4-e91b1ed5a513" name="CPSMDataModel" label="CPSMDataModel" metaclass="ModelTree">
+            <icons>
+                <explorer path="res/icons/data_model_16.png"/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="85660e94-8f74-45db-83cc-71298ae930ad" name="CPIM Deployment Model ">
+        <stereotype uid="048bf54c-aa63-4054-81dc-e04b10cada0d" name="CPIMDeploymentTypeModel" label="CPIMDeploymentTypeModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/deploy_meta_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="f8813dc7-f501-4407-97c0-b933298ffcad" name="CPIMDeploymentInstanceModel" label="CPIMDeploymentInstanceModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/deploy_inst_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="d77ea937-c75d-4730-a632-ba7107ad812a" name="NodeType" label="NodeType" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/deployment/NodeType16.png"/>
+                <diagram path="res/icons/deployment/NodeType32.png"/>
+            </icons>
+            <taggedvalues name="OS" uid="eafd856d-f881-479c-b965-60668eae8285" label="OS" is-hidden="false"/>
+            <taggedvalues name="is64os" uid="dc89f286-3ea3-471d-ad12-14add8cb4d7b" label="is64os" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="cb672e6f-9c96-4941-abec-d8b0a6a4669a" name="Node" label="Node" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/deployment/Node16.png"/>
+                <diagram path="res/icons/deployment/Node32.png"/>
+            </icons>
+            <taggedvalues name="minRAM" uid="46ef50a9-1427-4d6a-b643-174d0308854d" label="minRAM" is-hidden="false"/>
+            <taggedvalues name="maxRAM" uid="a296a109-9e97-46d9-a3ca-c7091949514d" label="maxRAM" is-hidden="false"/>
+            <taggedvalues name="minCPU" uid="20182957-ba51-4130-9271-9aa946c98147" label="minCPU" is-hidden="false"/>
+            <taggedvalues name="maxCPU" uid="423a1e61-d4e5-4559-bd77-97c89008f7aa" label="maxCPU" is-hidden="false"/>
+            <taggedvalues name="minStorage" uid="09662244-4db7-4101-8b64-67dcda246eab" label="minStorage" is-hidden="false"/>
+            <taggedvalues name="OS" uid="5e4a57dd-ed1c-4d60-9366-8ea4212e88ae" label="OS" is-hidden="false"/>
+            <taggedvalues name="location" uid="1eb930ef-e213-42c9-a861-a68a554e79a5" label="location" is-hidden="false"/>
+            <taggedvalues name="sshKey" uid="3ddd61bf-00ee-4af7-8f18-f801b0047ca1" label="sshKey" is-hidden="false"/>
+            <taggedvalues name="securityGroup" uid="4c90a335-bf31-48d5-a9b1-f18a3fad5769" label="securityGroup" is-hidden="false"/>
+            <taggedvalues name="groupName" uid="17ae8b79-bf64-4cc1-9356-9a7e49ebbb2b" label="groupName" is-hidden="false"/>
+            <taggedvalues name="privateKey" uid="c8d43a41-9b88-4f2b-b832-80447aef9783" label="privateKey" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="6540c835-379a-4a62-90e6-3d584ef9c089" name="ExternalServiceType" label="ExternalServiceType" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/deployment/ExternalServiceType16.png"/>
+                <diagram path="res/icons/deployment/ExternalServiceType32.png"/>
+            </icons>
+            <taggedvalues name="serviceType" uid="3ddcfee0-4a27-47e6-9a4b-7754ee4f9a6d" label="serviceType" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="4998fcc6-7ba4-4e1e-a51b-fca042198267" name="ApplicationType" label="ApplicationType" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/deployment/ApplicationType16.png"/>
+                <diagram path="res/icons/deployment/ApplicationType32.png"/>
+            </icons>
+            <taggedvalues name="applicationtype.properties" uid="fb1c88f8-0b13-4fe0-82d5-6a413577d7bc" label="applicationtype.properties" parameter-card="*" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="7fa7c507-9f51-41ca-80db-6478bddff994" name="ExternalService" label="ExternalService" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/deployment/ExternalService16.png"/>
+                <diagram path="res/icons/deployment/ExternalService32.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="7537d8a9-21c5-490d-b197-487d93f89ac2" name="Application" label="Application" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/deployment/Application16.png"/>
+                <diagram path="res/icons/deployment/Application32.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="587be98b-bf91-4ed5-9ced-0d4108f4bcbb" name="PortType" label="PortType" metaclass="Port">
+            <icons/>
+            <taggedvalues name="isLocal" uid="c38fdd87-a87b-45d2-bc48-6d2b7375632f" label="isLocal" is-hidden="false"/>
+            <taggedvalues name="portNumber" uid="9abb89f8-e312-4c4f-83b7-9aebeb27b6eb" label="portNumber" is-hidden="false"/>
+            <taggedvalues name="isMandatory" uid="c0972cb5-2c2f-4419-aa9a-db795c91a663" label="isMandatory" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="cdc1b4ae-9e20-4112-9ced-3556fdb81662" name="Server" label="Server" metaclass="Port">
+            <icons>
+                <explorer path="res/icons/deployment/Server16.png"/>
+                <diagram path="res/icons/deployment/Server16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="7513944f-4f2e-4e42-9ed1-7b6913ec34b8" name="Client" label="Client" metaclass="Port">
+            <icons>
+                <explorer path="res/icons/deployment/Client16.png"/>
+                <diagram path="res/icons/deployment/Client16.png"/>
+            </icons>
+            <taggedvalues name="isOptional" uid="58e5f73c-6000-411d-9fbf-2daf4619b418" label="isOptional" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="f864cbed-6a8a-4cb1-b16e-2854fc96ae1b" name="RequiredExecutionPlatform" label="RequiredExecutionPlatform" metaclass="Port">
+            <icons>
+                <explorer path="res/icons/deployment/RequiredExecutionPlatform16.png"/>
+                <diagram path="res/icons/deployment/RequiredExecutionPlatform16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="f54706d5-be4a-41b6-93f2-edfc595d59c0" name="ProvideExecutionPlatform" label="ProvideExecutionPlatform" metaclass="Port">
+            <icons>
+                <explorer path="res/icons/deployment/ProvideExecutionPlatform16.png"/>
+                <diagram path="res/icons/deployment/ProvideExecutionPlatform16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="1217bae7-d43a-4ec7-bc8b-1c01a66476c2" name="Offers" label="Offers" metaclass="ProvidedInterface">
+            <icons/>
+            <taggedvalues name="offersName" uid="701ca3dc-c597-4f78-87d2-a041181b1064" label="offersName" is-hidden="false"/>
+            <taggedvalues name="offersValue" uid="445f7b18-3dcf-492d-8a11-53738fdc363c" label="offersValue" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="cc714289-d510-4291-a4e4-d0e8ced2a48b" name="Demands" label="Demands" metaclass="RequiredInterface">
+            <icons/>
+            <taggedvalues name="demandsName" uid="77b563ae-141f-47a1-b7a2-e006f78eeba2" label="demandsName" is-hidden="false"/>
+            <taggedvalues name="demandsValue" uid="395c8b5b-1873-4748-9486-f5ea09acc337" label="demandsValue" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="442d3816-27b2-4600-aab9-7f671b9a4337" name="BindingType" label="BindingType" metaclass="Connector">
+            <icons>
+                <explorer path="res/icons/deployment/BindingType16.png"/>
+            </icons>
+            <taggedvalues name="serverDownloadCommand" uid="f28474c9-f918-4c3c-885d-1c8072562ae1" label="serverDownloadCommand" is-hidden="false"/>
+            <taggedvalues name="serverInstallCommand" uid="73eb9fcc-f3d1-416d-baa0-a7d7c9c5dc53" label="serverInstallCommand" is-hidden="false"/>
+            <taggedvalues name="serverConfigureCommand" uid="9fe0ea8b-a3e6-4f50-8b6f-01656f6fb178" label="serverConfigureCommand" is-hidden="false"/>
+            <taggedvalues name="serverStartCommand" uid="532fe15b-3998-4231-a412-89c9c323a68c" label="serverStartCommand" is-hidden="false"/>
+            <taggedvalues name="serverStopCommand" uid="d8e8bdfb-0a9f-4b6a-9b96-0c3a0ecc8e0f" label="serverStopCommand" is-hidden="false"/>
+            <taggedvalues name="clientDownloadCommand" uid="85fb3b7b-7698-4312-8bc9-332094d618c3" label="clientDownloadCommand" is-hidden="false"/>
+            <taggedvalues name="clientInstallCommand" uid="8ddd9fb9-52f1-492b-b838-6d27071ef96b" label="clientInstallCommand" is-hidden="false"/>
+            <taggedvalues name="clientConfigureCommand" uid="3201eb71-bc75-43af-a3a4-7844dd56c063" label="clientConfigureCommand" is-hidden="false"/>
+            <taggedvalues name="clientStartCommand" uid="f3cff540-92a2-4c5d-ab9a-de71f24d216d" label="clientStartCommand" is-hidden="false"/>
+            <taggedvalues name="clientStopCommand" uid="2d913a0d-5bcc-4b3b-a55a-0d27dafcb3e2" label="clientStopCommand" is-hidden="false"/>
+            <taggedvalues name="requireCredentials" uid="d4f06805-98e9-4861-98fc-ff5b1aa7a827" label="requireCredentials" is-hidden="false"/>
+            <taggedvalues name="executeLocally" uid="6a2ccb4b-bffd-40e1-a7f5-2cc7f6501335" label="executeLocally" is-hidden="false"/>
+            <taggedvalues name="bindingType.properties" uid="1dda9c11-1c7f-451c-af44-4a1d4eb3b60e" label="bindingType.properties" parameter-card="*" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="0e322221-d18e-4451-8499-0844cdb90645" name="PaaSBindingType" label="PaaSBindingType" metaclass="Connector">
+            <icons>
+                <explorer path="res/icons/deployment/BindingType16.png"/>
+            </icons>
+            <taggedvalues name="PaaSBindingType.properties" uid="0ca458cd-44d4-4595-8c6a-d669a61f1406" label="PaaSBindingType.properties" parameter-card="*" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="9b5ca165-ef92-40d2-a369-dab8bc738775" name="Binding" label="Binding" metaclass="Connector">
+            <icons>
+                <explorer path="res/icons/deployment/Binding16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="8d63c491-b975-4b55-b930-b7eba7139c51" name="Executes" label="Executes" metaclass="Connector">
+            <icons>
+                <explorer path="res/icons/deployment/Executes16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="2a83c18d-085a-447d-a748-ce338144b63f" name="ExecutesInstances" label="ExecutesInstances" metaclass="Connector">
+            <icons>
+                <explorer path="res/icons/deployment/ExecutesInstances16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="e6b51bae-fc35-4e10-8a14-de8e0e35038e" name="ResourcesLink" label="ResourcesLink" metaclass="Dependency">
+            <icons>
+                <explorer path="res/icons/deployment/ResourcesLink16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="3e8e828d-0c5c-4a25-ba07-643f6960b61b" name="Resource" label="Resource" metaclass="ModelElement">
+            <icons>
+                <explorer path="res/icons/DeploiementConfiguration16.png"/>
+                <diagram path="res/icons/DeploiementConfiguration32.png"/>
+            </icons>
+            <taggedvalues name="downloadCommand" uid="0325e7b2-3f5f-463e-8b88-8ee3e0bcae56" label="downloadCommand" is-hidden="false"/>
+            <taggedvalues name="installCommand" uid="6b5ad4da-3bfe-4eaf-9a00-5ee40eb26de2" label="installCommand" is-hidden="false"/>
+            <taggedvalues name="configureCommand" uid="017e6c6d-1c22-4fc8-9cb4-17cfa7f53a0f" label="configureCommand" is-hidden="false"/>
+            <taggedvalues name="startCommand" uid="141aa428-ab04-4ef8-b0de-8590e63b84f1" label="startCommand" is-hidden="false"/>
+            <taggedvalues name="stopCommand" uid="f07bac1c-3cda-4b5e-b5f6-7b7049f3ed34" label="stopCommand" is-hidden="false"/>
+            <taggedvalues name="uploadCommand" uid="898dd162-f466-4665-9fb9-3fa5327f0352" label="uploadCommand" parameter-card="*" is-hidden="false"/>
+            <taggedvalues name="resourceExecuteLocally" uid="8deacb34-4ec3-4db1-8461-ed4de1fe3f89" label="resourceExecuteLocally" is-hidden="false"/>
+            <taggedvalues name="resourceRequiredCredentials" uid="63338650-23c4-4f0e-9b6e-5de36644f472" label="resourceRequiredCredentials" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="dd66b674-f8c3-42ce-b33c-aac94833d935" name="PuppetResource" label="PuppetResource" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/PuppetResource16.png"/>
+                <diagram path="res/icons/PuppetResource32.png"/>
+            </icons>
+            <taggedvalues name="masterEndpoint" uid="f2aad1a6-6da0-45d9-95ca-52bf6401425e" label="Master Endpoint" is-hidden="false"/>
+            <taggedvalues name="repositoryEndpoint" uid="88a19809-a78d-42a4-9207-e4f54ebfb4a4" label="Repository Endpoint" is-hidden="false"/>
+            <taggedvalues name="username" uid="f2fc7971-70ec-4e73-8ed0-b2f602e414b6" label="User Name" is-hidden="false"/>
+            <taggedvalues name="repositoryKey" uid="e49abd51-570c-43b8-b184-bdc73e968d7d" label="Repository Key" is-hidden="false"/>
+            <taggedvalues name="configurationFile" uid="66ba2975-5fec-4503-95f8-081d27f15327" label="Configuration File" is-hidden="false"/>
+            <taggedvalues name="manifestEntry" uid="12361aa2-606f-46dc-815e-28a06641474f" label="Manifest Entry" is-hidden="false"/>
+            <taggedvalues name="configureHostnameCommand" uid="18925381-6ceb-4626-96a6-3265d81094d2" label="Configure Hostname Command" is-hidden="false"/>
+        </stereotype>
+    </profile>
+    <profile uid="35891744-cd76-4a27-ba18-5ed021553c40" name="CPSM Deployment Model">
+        <stereotype uid="3494fd49-e82c-4eb4-933d-d204c7b8918c" name="CPSMDeploymentInstanceModel" label="CPSMDeploymentInstanceModel" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/deploy_inst_16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="498ce5fa-f948-4452-914d-228db1de7a02" name="SpecificProvider" label="SpecificProvider" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/CloudApplication16.png"/>
+                <diagram path="res/icons/CloudApplication48.png"/>
+            </icons>
+            <taggedvalues name="credential" uid="86cd3011-0ab5-40af-838a-02a132ec946c" label="credential" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="0dedc50e-ce36-4d38-ace5-aaccc777de47" name="SpecificNode" label="SpecificNode" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/deployment/SpecificNode16.png"/>
+                <diagram path="res/icons/deployment/SpecificNode32.png"/>
+            </icons>
+            <taggedvalues name="specific.minRam" uid="a2dfb226-6a15-4a88-8b41-2ccd23bfdbc3" label="specific.minRam" is-hidden="false"/>
+            <taggedvalues name="specific.maxRam" uid="035b30db-8361-45ea-b4d8-bf652cf098d5" label="specific.maxRam" is-hidden="false"/>
+            <taggedvalues name="specific.minCores" uid="d1f4011a-967f-4676-af1b-01eaac4c9b25" label="specific.minCores" is-hidden="false"/>
+            <taggedvalues name="specific.maxCores" uid="f470fb6c-497a-4527-ac17-ee590c4c95c9" label="specific.maxCores" is-hidden="false"/>
+            <taggedvalues name="specific.minStorage" uid="8c6feddb-ec47-462e-8896-ded353e87216" label="specific.minStorage" is-hidden="false"/>
+            <taggedvalues name="specific.maxStorage" uid="6c2e6df2-28d9-4084-b3c4-440238fa3a33" label="specific.maxStorage" is-hidden="false"/>
+            <taggedvalues name="specific.os" uid="caf51f71-5546-42e0-89e2-afe7345c7f61" label="specific.os" is-hidden="false"/>
+            <taggedvalues name="specific.imageId" uid="104db144-a8a0-46d2-8b04-b6ca5cf46dbb" label="specific.imageId" is-hidden="false"/>
+            <taggedvalues name="specific.sshKey" uid="62f4d7cb-9a76-420d-9b5a-7e1d95645dc6" label="specific.sshKey" is-hidden="false"/>
+            <taggedvalues name="specific.securityGroup" uid="7c7a9c39-bd23-4ab4-8dfc-7496a01d4c38" label="specific.securityGroup" is-hidden="false"/>
+            <taggedvalues name="specific.groupName" uid="629e2856-95aa-4db4-970c-e1f527ec4537" label="specific.groupName" is-hidden="false"/>
+            <taggedvalues name="specific.privateKey" uid="1b3e19ad-dcc3-4a6f-a995-489b9361c211" label="specific.privateKey" is-hidden="false"/>
+            <taggedvalues name="specific.publicAddress" uid="c52d871b-fbf3-4946-8281-eddf3f953d72" label="specific.publicAddress" is-hidden="false"/>
+            <taggedvalues name="specific.isRuntime" uid="cb133dd7-c2ce-44ef-aae8-e4aa3feb3f17" label="specific.isRuntime" is-hidden="false"/>
+            <taggedvalues name="specific.location" uid="c7e5024c-31fd-4e69-b577-9d62a8dca137" label="specific.location" is-hidden="false"/>
+            <taggedvalues name="specific.properties" uid="ca398db3-5abc-43c0-8c92-bba771de2d1f" label="specific.properties" parameter-card="*" is-hidden="false"/>
+            <taggedvalues name="slaNodeLowId" uid="2b6381aa-46f7-4940-804f-25ea22ceffb9" label="slaNodeLowId" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="2a4abebc-552c-41af-b0c5-6521663c4377" name="SpecificExternalService" label="SpecificExternalService" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/deployment/SpecificExternalService16.png"/>
+                <diagram path="res/icons/deployment/SpecificExternalService32.png"/>
+            </icons>
+            <taggedvalues name="specific.login" uid="26209513-2f90-4c19-be8b-e1d4931e95a5" label="specific.login" is-hidden="false"/>
+            <taggedvalues name="specific.password" uid="3c98cd2c-7828-415e-a8fc-6ee996d3a896" label="specific.password" is-hidden="false"/>
+            <taggedvalues name="specifices.properties" uid="962c40ae-c79f-4be1-9bf2-dc4fec8a9490" label="specifices.properties" parameter-card="*" is-hidden="false"/>
+            <taggedvalues name="slaServiceLowId" uid="9b6359b5-c053-4984-8196-fec368cd2297" label="slaServiceLowId" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="8845fda8-4078-4ba2-9364-27d15e84c40d" name="SpecificApplication" label="SpecificApplication" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/deployment/SpecificApplication16.png"/>
+                <diagram path="res/icons/deployment/SpecificApplication32.png"/>
+            </icons>
+            <taggedvalues name="status" uid="d8b8525f-d2db-41be-bb6d-9baecd076f0c" label="status" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="8dded894-87bc-441e-8091-06ccc79f620b" name="CloudAccountPackage" label="CloudAccountPackage" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/deployment/CloudAccountPackage16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="fd04a956-1beb-4b7c-8220-097b713384ed" name="CloudAccount" label="CloudAccount" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/deployment/CloudAccount16.png"/>
+            </icons>
+            <taggedvalues name="provider.name" uid="647909bb-0dd0-440d-b219-da797d164914" label="provider.name" is-hidden="false"/>
+            <taggedvalues name="provider.credential" uid="2aa641c7-3a0a-44c8-a6f4-3626f76f0ea3" label="provider.credential" is-hidden="false"/>
+            <taggedvalues name="provider.endpoint" uid="2c77535f-f16a-4828-b5d1-6511a0eb170e" label="provider.endpoint" is-hidden="false"/>
+            <taggedvalues name="provider.properties" uid="3923e0a9-a93c-420a-aeef-a51798485350" label="provider.properties" parameter-card="*" is-hidden="false"/>
+        </stereotype>
+    </profile>
+    <profile uid="43f4dff8-e4e2-4aff-b214-15b951d70ccf" name="CPIM QoS Cost Model">
+        <stereotype uid="d18ab324-8307-4387-aa2a-80142a83c6a5" name="CostProfile" label="CostProfile" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/CostProfile16.png"/>
+                <diagram path="res/icons/CostProfile32.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="808bf807-ff9a-47b7-9deb-59004848df7b" name="Cost" label="Cost" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/Cost16.png"/>
+                <diagram path="res/icons/Cost32.png"/>
+            </icons>
+            <taggedvalues name="unit" uid="0d9da96b-ab0f-43dd-8105-f35e33fb385a" label="unit" is-hidden="false"/>
+            <taggedvalues name="value" uid="6caa588a-2d39-4ada-adcd-49764d084f38" label="value" is-hidden="false"/>
+            <taggedvalues name="period" uid="8d6d752e-c447-4630-8ebe-2680e8b26dea" label="period" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="de20ca00-739d-4821-9517-09e8a6580701" name="FreeQuota" label="FreeQuota" metaclass="Classifier">
+            <icons>
+                <explorer path="res/icons/palladio/Variable.gif"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="21ff8a5b-89c3-4b7b-927a-ab5d54469b43" name="associatedTo" label="associatedTo" metaclass="Association">
+            <icons/>
+        </stereotype>
+    </profile>
+    <profile uid="bd370417-1eac-4729-804c-c1f4854f2d57" name="CPIM QoS Scaling Model">
+        <stereotype uid="3625eb51-5748-4474-b3ef-cdc7791936c6" name="ScalingRule" label="ScalingRule" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/palladio/InfrastructureSignature.gif"/>
+            </icons>
+            <taggedvalues name="metric" uid="605a409b-ccd3-4b1a-a79a-0675d055518d" label="metric" is-hidden="false"/>
+            <taggedvalues name="value" uid="76de2f6d-6fbc-4df6-8761-4f9f065e1a5e" label="value" is-hidden="false"/>
+            <taggedvalues name="operator" uid="2e959010-a535-4b58-b019-9e22a2098109" label="operator" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="f2455cd7-fd17-40ed-841f-859e825d1bc5" name="ScalingPolicy" label="ScalingPolicy" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/palladio/InfrastructureSignature.gif"/>
+            </icons>
+            <taggedvalues name="action" uid="50c42813-3cc7-4acc-bf8d-ce7e8a2061c3" label="action" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="c8549213-1d56-4077-b584-e140a2cd1147" name="definedOn" label="definedOn" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+    </profile>
+    <profile uid="30674f4c-d84c-483e-8117-f2fbc364358b" name="CPIM QoS SLA Model">
+        <stereotype uid="769a50b5-5d76-4ba3-a323-b5b7dd81cc94" name="Requirement" label="Requirement" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/pim4cloud/CloudResourceSet16.png"/>
+                <diagram path="res/icons/  "/>
+            </icons>
+        </stereotype>
+        <stereotype uid="a6a6d687-a824-450f-b399-d78902815186" name="ServiceLevelAgreementTemplate" label="ServiceLevelAgreementTemplate" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/pim4cloud/CloudResourceSet16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="fb040a6c-d894-4e06-94f9-752d637bc4e5" name="has" label="has" metaclass="Dependency">
+            <icons>
+                <diagram path="res/icons/ "/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="f44b1124-680e-462a-8fb8-e7bbf031b33e" name="CPIM QoS Provider Model">
+        <stereotype uid="31e52a80-93b0-48e6-bb7a-c7c12ae180e5" name="CloudProvider" label="CloudProvider" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/CloudProvider16.png"/>
+                <diagram path="res/icons/CloudProvider32.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="16dd33a6-fa5f-4fa7-bf8c-f546894d6a3d" name="ApplicationServiceProvider" label="ApplicationServiceProvider" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/CloudApplication16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="813a88e8-a9a1-435d-b28b-7d2770fcaa01" name="provides" label="provides" metaclass="Association">
+            <icons/>
+        </stereotype>
+    </profile>
+    <profile uid="85783c1e-6d14-4492-998b-486ddf3115d5" name="CPIM QoS XaaS Model">
+        <stereotype uid="04905342-7098-46ae-b3ae-eed651b647eb" name="ReplicableElement" label="ReplicableElement" metaclass="ModelElement">
+            <icons/>
+            <taggedvalues name="replicas" uid="ee44717c-84f5-44e3-95c2-4d1a66e6f620" label="replicas" parameter-card="*" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="894dbbd8-222b-4266-b385-6ec8ccd19cbb" name="IaaSService" label="IaaSService" metaclass="ModelElement">
+            <icons>
+                <explorer path="res/icons/IaaSService16.png"/>
+                <diagram path="res/icons/IaaSService32.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="2f7be6c8-33b5-4e9a-824b-afc7c3960cc0" name="PaaSService" label="PaaSService" metaclass="ModelElement">
+            <icons>
+                <explorer path="res/icons/PaaSService16.png"/>
+                <diagram path="res/icons/PaaSService32.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="2d78dbf2-2477-4fdd-8025-92137589599a" name="SaaSService" label="SaaSService" metaclass="ModelElement">
+            <icons>
+                <explorer path="res/icons/SaaSService16.png"/>
+                <diagram path="res/icons/SaaSService32.png"/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="3ea6dc12-90df-4b6a-b97a-c76301a6e5fe" name="CPIM QoS Virtual HW Resource Model">
+        <stereotype uid="ab2ab2a8-b995-419b-bd1f-e757bf05bd87" name="VirtualHWResource" label="VirtualHWResource" metaclass="ModelElement">
+            <icons>
+                <explorer path="res/icons/VirtualHWResource16.png"/>
+                <diagram path="res/icons/VirtualHWResource32.png"/>
+            </icons>
+            <taggedvalues name="processingRate" uid="7b1e767e-ab87-4fcc-88c8-285c3b28a2d8" label="processingRate" is-hidden="false"/>
+            <taggedvalues name="numberOfReplicas" uid="eb06d996-fce3-4ea9-b260-4542e744404c" label="numberOfReplicas" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="580d7119-957e-4652-894d-4e5d2bf54b83" name="V_Storage" label="V_Storage" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/mades/HwStorageManager.png"/>
+            </icons>
+            <taggedvalues name="size" uid="771af76d-c983-43be-a0d5-087a6ffd54d8" label="size" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="ca8c79cc-80e0-44cc-ae10-030af5cd4ee8" name="V_Memory" label="V_Memory" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/mades/HwMemory.png"/>
+            </icons>
+            <taggedvalues name="size" uid="3fe09e6e-b65f-43be-bc03-caf80ed01a81" label="size" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="e6a7435d-2afb-4a9b-a773-64f22220bdf2" name="V_CPU" label="V_CPU" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/palladio/ProcessingResourceType.gif"/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="712473b5-3770-49e3-b229-c9838367013d" name="CPIM QoS Efficiency Model">
+        <stereotype uid="7ee8b21a-57fc-4bfa-8e08-716c2d4b2fd5" name="Efficiency" label="Efficiency" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/mades/HwPowerSupply.png"/>
+            </icons>
+            <taggedvalues name="period" uid="16c230ea-29a9-4a64-a37e-c0c1b5a305cd" label="period" is-hidden="false"/>
+            <taggedvalues name="efficiency" uid="14bf72fa-5431-4be2-b0b8-4fa311169097" label="efficiency" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="e5dbcb66-38ee-41f0-ad94-07c7cc13d92b" name="EfficiencyProfile" label="EfficiencyProfile" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/mades/HwPowerSupply.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="ed2a506b-6a9e-4399-ac58-c8e2fac05c23" name="has" label="has" metaclass="Association">
+            <icons/>
+        </stereotype>
+    </profile>
+    <profile uid="2466c776-1d59-4359-821e-0ff05d39aca1" name="CPIM QoS Location Model">
+        <stereotype uid="1c58e6f0-b16d-470e-828a-1d2844b529c9" name="Location" label="Location" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="dc921a39-32a3-4e4d-a8c4-770a45f510e0" name="SubRegion" label="SubRegion" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/findicons.com/map.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="08b04afa-7250-443d-a437-d920f23041f9" name="Region" label="Region" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/findicons.com/internet_explorer.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="b2d33da1-58ad-48e2-b6c5-bb91de02b828" name="VirtualArea" label="VirtualArea" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="81927e27-fa6f-45be-af5f-7ba726778ba4" name="in" label="in" metaclass="Association">
+            <icons/>
+        </stereotype>
+    </profile>
+    <profile uid="04e1be99-6300-4ff7-8a2b-4c16d9b89cd6" name="CPIM QoS Allocation Model">
+        <stereotype uid="01ab9c85-e92a-458d-ad41-64b9104b16df" name="Allocation" label="Allocation" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/palladio/Allocation.gif"/>
+            </icons>
+            <taggedvalues name="period" uid="78040525-e522-40b5-b080-71f3aa0c354b" label="period" is-hidden="false"/>
+            <taggedvalues name="numberOfInstances" uid="43ab485d-357b-4859-a454-ca16ec4a8828" label="numberOfInstances" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="cc777ea6-29ee-4029-86fd-8550a7fe1056" name="AllocationProfile" label="AllocationProfile" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/palladio/Allocation.gif"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="3b444619-18b1-4702-a0ce-edb796437100" name="allocationProfile" label="allocationProfile" metaclass="Association">
+            <icons/>
+        </stereotype>
+    </profile>
+    <profile uid="fd81faf7-73c7-4af5-b43b-b8ed6e68983f" name="CPIM QoS Link Model">
+        <stereotype uid="11076ee1-a2ec-4bc8-9fdf-540793695da2" name="Link" label="Link" metaclass="ModelElement">
+            <icons/>
+            <taggedvalues name="latency" uid="9a64e81e-0460-4e7b-96ed-5ab6a5c889e0" label="latency" is-hidden="false"/>
+            <taggedvalues name="throughput" uid="662759d3-6866-4972-acf1-95dc7bb882e7" label="throughput" is-hidden="false"/>
+            <taggedvalues name="cost" uid="d1ddbe43-f6a7-4787-8076-35a05a9c9898" label="cost" is-hidden="false"/>
+        </stereotype>
+    </profile>
+    <profile uid="29547560-f588-4948-9c69-175f01529095" name="CPIM QoS Constraint Model">
+        <stereotype uid="e24edaac-c65e-44a7-8288-208c7ff04868" name="ResponseTimeConstraint" label="ResponseTimeConstraint" metaclass="Constraint">
+            <icons/>
+            <taggedvalues name="priority" uid="492c8fdb-5f84-4359-8093-b0f4401ebe26" label="priority" is-hidden="false"/>
+            <taggedvalues name="unit" uid="b4d8d64c-d3dc-4ac5-936d-b16dadfc5ab1" label="unit" is-hidden="false"/>
+            <taggedvalues name="range" uid="6d2ebf94-8b78-49cf-9992-991955ecbe69" label="range" is-hidden="false"/>
+            <taggedvalues name="metric" uid="a5822317-285f-4f57-b329-3e162b0a3cf5" label="metric" is-hidden="false"/>
+            <taggedvalues name="value" uid="08c67291-777c-45c1-8d8d-849f4af1dc3b" label="value" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="552f41e0-e2a7-4265-8a3a-8c39a3f22036" name="ServiceTypeConstraint" label="ServiceTypeConstraint" metaclass="Constraint">
+            <icons/>
+            <taggedvalues name="priority" uid="679079fe-14ce-473f-b42b-66b990b7b451" label="priority" is-hidden="false"/>
+            <taggedvalues name="unit" uid="4580b57d-2adc-4dc4-9878-c57d3110859c" label="unit" is-hidden="false"/>
+            <taggedvalues name="range" uid="14d97e33-9d6e-468d-87c1-95f3f091fb18" label="range" is-hidden="false"/>
+            <taggedvalues name="metric" uid="69aa5a09-74d1-4858-bea4-0be989e8226d" label="metric" is-hidden="false"/>
+            <taggedvalues name="value" uid="b5c6c286-386b-44a2-b628-e8da409be98a" label="value" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="4b5bed33-15b5-4f25-9b46-50bc84a5ac94" name="ArchitecturalConstraint" label="ArchitecturalConstraint" metaclass="Constraint">
+            <icons/>
+            <taggedvalues name="priority" uid="4631414e-0c45-48d3-bd2f-f04d4440edb2" label="priority" is-hidden="false"/>
+            <taggedvalues name="unit" uid="8798f351-1a57-43f6-b1ef-68abbe1d137b" label="unit" is-hidden="false"/>
+            <taggedvalues name="range" uid="a4b7f989-0d5d-4564-9de2-30b371f08a5d" label="range" is-hidden="false"/>
+            <taggedvalues name="metric" uid="39032541-e60c-4b91-a58a-f6f9edf2e9e5" label="metric" is-hidden="false"/>
+            <taggedvalues name="value" uid="04a56190-3580-4173-8ddd-0938451283b3" label="value" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="dd099d56-e421-4aaf-9445-7282f93dfd3a" name="QoSConstraint" label="QoSConstraint" metaclass="Constraint">
+            <icons>
+                <explorer path="res/icons/ "/>
+            </icons>
+            <taggedvalues name="priority" uid="23c086e8-19c2-4c9c-8d24-3e1d8dcfe94e" label="priority" is-hidden="false"/>
+            <taggedvalues name="unit" uid="7e65f034-2281-4542-a3a8-a19e6f55a0f0" label="unit" is-hidden="false"/>
+            <taggedvalues name="range" uid="eeb1758c-272e-4bc2-aa9d-fa18bf916e9f" label="range" is-hidden="false"/>
+            <taggedvalues name="metric" uid="34e56597-17e8-4e28-8592-5fcd47f0bdf4" label="metric" is-hidden="false"/>
+            <taggedvalues name="value" uid="56cbb302-63b2-46b8-b1ac-5d9d3d65108f" label="value" is-hidden="false"/>
+        </stereotype>
+    </profile>
+    <profile uid="55ce5f11-d522-4f31-999a-3cff4154151e" name="CPIM QoS Usage Model">
+        <stereotype uid="5e3d671a-103f-4cb0-9daf-e24a78427bf6" name="Solution" label="Solution" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/palladio/ClosedWorkload.gif"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="f9635170-bedd-4a2c-93d7-6e72f7097b2b" name="HourlySolution" label="HourlySolution" metaclass="Instance">
+            <icons>
+                <explorer path="res/icons/palladio/Delay.gif"/>
+            </icons>
+            <taggedvalues name="balancing" uid="c42eb982-70cb-48f1-99d1-28441fd89f4a" label="balancing" is-hidden="false"/>
+            <taggedvalues name="hour" uid="a1ac70c6-b6eb-42b1-b8e2-4721e77ffeb2" label="hour" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="604fc922-1f0c-4310-82c9-c1ba366a2ba6" name="exposedComponent" label="exposedComponent" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+        <stereotype uid="6788b365-4db2-43cc-886f-3cb1edc14461" name="instances" label="instances" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+        <stereotype uid="250e125f-f85b-4f28-882c-45bae5d8bae2" name="ApplicationReplica" label="ApplicationReplica" metaclass="Instance">
+            <icons/>
+        </stereotype>
+        <stereotype uid="05ee165a-908f-409f-b8ed-097759bd9aef" name="Tier" label="Tier" metaclass="Package">
+            <icons/>
+        </stereotype>
+        <stereotype uid="1aac283f-ebf3-4e87-bdae-2733cac557a5" name="tier" label="tier" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+    </profile>
+    <profile uid="929252e4-c02c-4b9c-af52-b9bcd203664f" name="CPIM QoS Resource Model">
+        <stereotype uid="757f31a4-950d-4403-9dd5-2a3c9870827e" name="ResourcePool" label="ResourcePool" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="2b19b37f-75d8-4818-bd15-4e95b14c7c7e" name="CloudResource" label="CloudResource" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/CloudResource16.png"/>
+                <diagram path="res/icons/CloudResource32.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="6f270f44-9bc0-4179-a1e5-c396d9600cfa" name="Compute" label="Compute" metaclass="Class">
+            <icons/>
+            <taggedvalues name="os" uid="8fde13d8-e7bd-467a-aedd-d1c2b9471b1a" label="os" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="70cedb06-31ad-46b9-8140-5aee799b2be2" name="CloudStorage" label="CloudStorage" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="487d05be-c255-497f-a078-4ca2609aa2c9" name="BlobStorage" label="BlobStorage" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="6dec0e08-c5b8-4e50-a847-a84c2813d409" name="FilesystemStorage" label="FilesystemStorage" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="ed4f2b9b-0d67-425f-9752-f9024a358876" name="uses" label="uses" metaclass="Association">
+            <icons/>
+        </stereotype>
+        <stereotype uid="fb84296a-9172-4b47-b915-21bc14ec2a45" name="CloudPlatform" label="CloudPlatform" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/CloudPlatform16.png"/>
+                <diagram path="res/icons/CloudPlatform32.png"/>
+            </icons>
+            <taggedvalues name="language" uid="48059337-6ea1-45c0-900d-069b764dac60" label="language" is-hidden="false"/>
+            <taggedvalues name="technology" uid="51a8f7a4-5092-4556-8172-6e64cb0bc70f" label="technology" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="104fc909-52f7-49a5-aad2-0e889f09b4b1" name="Backend" label="Backend" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="ade2608c-6327-4e02-afe6-003ab53b74a3" name="Database" label="Database" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="65a35760-56bd-46a4-9edd-8af4097667dd" name="NoSQL_DB" label="NoSQL_DB" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="81fb7827-fa73-4002-b84d-c75449651544" name="Relational_DB" label="Relational_DB" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="33a7e1ab-3f82-42fc-9696-2c476ca20418" name="Frontend" label="Frontend" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="eece9d6f-83c0-4e90-834a-294adba55f2f" name="Middleware" label="Middleware" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="98c540a9-88c0-4e35-b2c6-5b3b41f5c1e0" name="CloudSoftware" label="CloudSoftware" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="541299e3-d17f-4358-a3a8-abc5def292c2" name="SOAP_Software" label="SOAP_Software" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="47d96fe8-cce4-4800-8d5d-c7960ddeab0c" name="REST_Software" label="REST_Software" metaclass="Class">
+            <icons/>
+        </stereotype>
+        <stereotype uid="2ed79c61-36e6-44f1-8229-d5db3e7f5c87" name="deployedOn" label="deployedOn" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+        <stereotype uid="e3101b41-6dd8-42c5-b16a-618629b6b93c" name="runOn" label="runOn" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+        <stereotype uid="64ccdcb8-5f38-492a-b157-046a2c9530d1" name="Queue" label="Queue" metaclass="Class">
+            <icons/>
+        </stereotype>
+    </profile>
+    <profile uid="dc19789a-9a4d-49e6-8e17-1124ecde9cc2" name="CPIM and CPSM Resource Model">
+        <stereotype uid="52284a6f-be83-463a-80d2-dfcc1402613b" name="ProcessingResourceSpecification" label="ProcessingResourceSpecification" metaclass="ModelElement">
+            <icons/>
+            <taggedvalues name="MTTR" uid="95185f86-1f85-4563-bd09-2fddd1b82e82" label="MTTR" is-hidden="false"/>
+            <taggedvalues name="MTTF" uid="6743bf48-7496-43a3-b7fd-7cfbf5216d04" label="MTTF" is-hidden="false"/>
+            <taggedvalues name="requiredByContainer" uid="f9111ed7-98a3-4b27-9c2c-45d1efb47480" label="requiredByContainer" is-hidden="false"/>
+            <taggedvalues name="schedulingPolicy" uid="7a6f4a6f-4e48-4da0-ad9d-98a63fbaa937" label="schedulingPolicy" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="35920e91-1240-45ac-98ee-a2455d813b5d" name="CommunicationLinkResourceSpecification" label="CommunicationLinkResourceSpecification" metaclass="ModelElement">
+            <icons/>
+            <taggedvalues name="failureProbability" uid="5ac6b1d0-8885-4b2c-a067-0fc59fb4e7eb" label="failureProbability" is-hidden="false"/>
+            <taggedvalues name="latency" uid="fcc6abb6-f5c4-444f-a6c3-6cdaac706369" label="latency" is-hidden="false"/>
+            <taggedvalues name="throughput" uid="04413aa8-053e-4c65-ab4e-e24eaa1e86db" label="throughput" is-hidden="false"/>
+        </stereotype>
+    </profile>
+    <profile uid="2eec533f-bdb2-4289-ae1a-88d35872892b" name="CIM Decision criteria">
+        <stereotype uid="9719f00a-f1c8-4676-8a6d-51f5b6edeefb" name="SearchRequirement" label="SearchRequirement" metaclass="ModelElement">
+            <icons/>
+            <taggedvalues name="criterion" uid="31d7ee13-4606-40cc-83bc-6cdc8af6ddd0" label="criterion" is-hidden="false"/>
+            <taggedvalues name="weight" uid="cf6406c5-4efb-4f60-b7b5-93868b8af11d" label="weight" is-hidden="false"/>
+        </stereotype>
+    </profile>
+    <profile uid="1353deee-ad6f-4e69-abe2-1244680d74f3" name="CPIM and CPSM Monitoring Rules and Constraints">
+        <stereotype uid="f56e9ef8-21a4-4dec-b4b9-e2ed2c3c4966" name="QoSContainer" label="QoSContainer" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/monitoring/QoSContainer16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="e3dc0e92-f771-4ec7-b26d-af153c524520" name="MonitoringContainer" label="MonitoringContainer" metaclass="Package">
+            <icons>
+                <explorer path="res/icons/monitoring/MonitoringContainer16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="c40e130d-7583-43f8-9b36-6f8739f3fd8e" name="MonitoringRule" label="MonitoringRule" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/monitoring/MonitoringRule16.png"/>
+            </icons>
+            <taggedvalues name="useParentTargets" uid="cbc9c3e4-8985-4ff8-9028-d4675194375a" label="useParentTargets" is-hidden="false"/>
+            <taggedvalues name="metricTransformationUseParentFields" uid="3f28d02f-de65-41ed-975b-e80646e2da5f" label="metricTransformationUseParentFields" is-hidden="false"/>
+            <taggedvalues name="metricTransformationGroupingCategory" uid="67db790a-ae7e-4113-9c49-c704a0302b70" label="metricTransformationGroupingCategory" is-hidden="false"/>
+            <taggedvalues name="metricTransformationTransformation" uid="39f022bb-9eae-4917-9629-60d3eadabccc" label="metricTransformationTransformation" is-hidden="false"/>
+            <taggedvalues name="metricTransformationParameters" uid="af4915a6-0323-4731-979c-2188a635e244" label="metricTransformationParameters" is-hidden="false"/>
+            <taggedvalues name="useParentActions" uid="9ba169a4-4165-426a-88ba-c172bd2655fa" label="useParentActions" is-hidden="false"/>
+            <taggedvalues name="metricName" uid="f7c5a186-71fd-4583-a8e2-a28385852894" label="metricName" is-hidden="false"/>
+            <taggedvalues name="timeStep" uid="b33dab65-255a-44b1-83a4-3b9116b124bc" label="timeStep" is-hidden="false"/>
+            <taggedvalues name="timeWindow" uid="a3a7622b-986f-4bd9-860b-c255f5340388" label="timeWindow" is-hidden="false"/>
+            <taggedvalues name="startEnabled" uid="ea49d1e4-00be-4f4c-9f67-4e2a61576e69" label="startEnabled" is-hidden="false"/>
+            <taggedvalues name="samplingTime" uid="0b54626c-18e7-4681-8ace-372625df3c89" label="samplingTime" is-hidden="false"/>
+            <taggedvalues name="samplingProbability" uid="20ccb5b5-4c56-48c8-9468-eefebdbebc7f" label="samplingProbability" is-hidden="false"/>
+            <taggedvalues name="actionsNotifyViolation" uid="969565be-9852-401c-9342-3f085d164c90" label="actionsNotifyViolation" is-hidden="false"/>
+            <taggedvalues name="actionsPlotMetric" uid="bae6ca3a-8ed2-49ed-b6af-86cdf2f3c056" label="actionsPlotMetric" is-hidden="false"/>
+            <taggedvalues name="actionsMigrateToHealthyCloud" uid="d0f654ee-ee34-415b-bd90-08c1ca6270fc" label="actionsMigrateToHealthyCloud" is-hidden="false"/>
+            <taggedvalues name="condition" uid="f3cb243f-1c3b-4010-97b8-5bc4180da86f" label="condition" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="bce78096-12cf-4f27-82de-6162fbec8a1b" name="monitors" label="monitors" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+        <stereotype uid="f56d1df1-6e2f-4033-b55f-ee135730664f" name="actionEnableMonitoringRules" label="actionEnableMonitoringRules" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+        <stereotype uid="cb017fd4-0964-41cf-b835-00da4c10ebd6" name="actionDisableMonitoringRules" label="actionDisableMonitoringRules" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+        <stereotype uid="6488b74c-c8ad-4e19-91f8-38856e4d7d0d" name="actionSetSamplingProbability" label="actionSetSamplingProbability" metaclass="Dependency">
+            <icons/>
+            <taggedvalues name="value" uid="c93e7089-7539-4dc8-be6c-799e01ca0f69" label="value" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="e3d9f362-0196-48f7-b6af-a4a2a30692b8" name="actionSetSamplingTime" label="actionSetSamplingTime" metaclass="Dependency">
+            <icons/>
+            <taggedvalues name="value" uid="d24194d0-3171-4fc9-ab58-8ec5323a2b7c" label="value" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="50c254ef-bcc9-47b9-b10f-a4c80170d0f8" name="targets" label="targets" metaclass="Dependency">
+            <icons/>
+        </stereotype>
+        <stereotype uid="28d29c8f-8872-4b83-ae03-7bad88aea368" name="MonitoringConstraint" label="MonitoringConstraint" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/monitoring/MonitoringConstraint16.png"/>
+            </icons>
+            <taggedvalues name="metric" uid="b3c5c736-a1fb-4ac7-8caa-073132b0d3be" label="metric" is-hidden="false"/>
+            <taggedvalues name="aggregationType" uid="e969d408-2343-453b-9398-2ee28a33dbab" label="aggregationType" is-hidden="false"/>
+            <taggedvalues name="rangeMin" uid="eac8c439-89a7-4583-b014-61bc2cdb2ace" label="rangeMin" is-hidden="false"/>
+            <taggedvalues name="rangeMax" uid="9ff79dce-20a0-40ab-ab40-129de0820c41" label="rangeMax" is-hidden="false"/>
+            <taggedvalues name="rangeInSet" uid="42b5ef19-7e56-4837-a6e6-1bb54ac1d949" label="rangeInSet" is-hidden="false"/>
+            <taggedvalues name="rangeOutSet" uid="556104d3-f9b6-485e-be8f-ce6de76207ae" label="rangeOutSet" is-hidden="false"/>
+            <taggedvalues name="priority" uid="2541f0b6-f4ce-4287-bdc5-d0eaf84582e8" label="priority" is-hidden="false"/>
+            <taggedvalues name="unit" uid="5f965988-65be-42ac-957b-08580af1373f" label="unit" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="317431a1-c220-4d17-a765-19043bfa45e5" name="MonitoringRuleTransformationSpecification" label="MonitoringRuleTransformationSpecification" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/monitoring/MonitoringRuleTransformationSpecification16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="65d8a087-012e-4437-9196-2511a06372fc" name="MonitoringRuleActionSpecification" label="MonitoringRuleActionSpecification" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/monitoring/MonitoringRuleActionSpecification16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="18a2c033-905c-4c8e-ab8f-df78526ce704" name="PenaltyLink" label="PenaltyLink" metaclass="Dependency">
+            <icons/>
+            <taggedvalues name="count" uid="4dd5c6f5-b4bc-404e-92e4-0dcde5479817" label="count" is-hidden="false"/>
+            <taggedvalues name="duration" uid="8f1157fd-625d-4f51-98fb-ffe088b5b1b8" label="duration" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="04653a90-1e93-4f01-a999-abb86ce1d612" name="Penalty" label="Penalty" metaclass="Class">
+            <icons>
+                <explorer path="res/icons/monitoring/MonitoringConstraint16_penalty.png"/>
+            </icons>
+        </stereotype>
+    </profile>
+    <profile uid="aab01d3b-d39d-481e-8185-96fd79f57e4b" name="CIM Data Query Model">
+        <stereotype uid="737a6e47-0fcc-4133-a2cc-f51be7523105" name="Query" label="Query" metaclass="Class">
+            <icons/>
+            <taggedvalues name="where" uid="27f5d102-9af0-433c-9fd0-b3fc65936ec4" label="where" is-hidden="false"/>
+            <taggedvalues name="type" uid="3d88f103-3131-4232-95a4-0bfdbb13160d" label="type" is-hidden="false"/>
+        </stereotype>
+        <stereotype uid="41d8beda-52a5-44da-8395-0d22db53cb7c" name="From" label="From" metaclass="Dependency">
+            <icons/>
+            <taggedvalues name="variable" uid="138a9590-9e73-415c-aaef-7d0bb7d96c90" label="variable" is-hidden="false"/>
+        </stereotype>
+    </profile>
+
